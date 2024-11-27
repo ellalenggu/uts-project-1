@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Five-Star Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Five-Star Restaurant</h1>
+        <p>"Feel the pleasure"</p>
+    </header>
+
+    <nav>
+        <a href="#beranda">Home</a>
+        <a href="#tentang-kami">About us</a>
+        <a href="#menu">Menu</a>
+        <a href="#kontak">Contact</a>
+    </nav>
+
+    <section id="beranda" class="hero">
+        <h2>Welcome to the five-star restaurant</h2>
+        <p>A five-star restaurant is the pinnacle of luxury and culinary excellence, 
+            offering exclusive dishes prepared by world-class chefs, impeccable service, 
+            and an ambiance designed to create an unforgettable dining experience.</p>
+        </section>
+
+    <section id="tentang-kami" class="tentang-kami">
+        <h2>About us</h2>
+        <p> This restaurant offers a menu that uses the finest ingredients, such as truffles, caviar, 
+            and wagyu beef, prepared by renowned chefs with modern culinary techniques. 
+            Personal and attentive service, often combined with expert advice from the sommelier, 
+            ensures that every dining moment feels special. More than just a dining place, 
+            a five-star restaurant is a destination for those seeking an exclusive and memorable gastronomic experience.</p>
+        <img src="image/chef.jpeg" alt="Tentang Kami">
+    </section>
+
+    <section id="menu" class="menu">
+        <h2>our menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="image/daging wahyu.jpeg" alt="daging wagyu">
+                <h3>wagyu beef</h3>
+                <p>Rp. 2.500.000</p>
+            </div>
+            <div class="menu-item">
+                <img src="image/Oysters Rockefeller 1.jpg" alt="Oysters Rockefeller">
+                <h3>Oysters Rockefeller</h3>
+                <p>Rp. 750.000</p>
+            </div>
+            <div class="menu-item">
+                <img src="image/tuna.jpeg" alt="Tartare Tuna dengan Avocado Mousse">
+                <h3>Tartare Tuna dengan Avocado Mousse</h3>
+                <p>Rp. 600.000</p>
+            </div>
+            <div class="menu-item">
+                <img src="image/salmon.jpg" alt="Steak">
+                <h3>Salmon</h3>
+                <p>Rp. 1.000.000</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak" class="kontak">
+        <h2>Contact Us</h2>
+        <p>Want to know more about us? Contact our team for reservations or inquiries..</p>
+        <button id="contact-popup-btn">Contact us</button>
+    </section>
+  
+        <div id="contact-popup" class="popup hidden">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <h3>Contact Us</h3>
+            <p>Email: info@restoranyummy.com</p>
+            <p>Telepon: 0812-3456-7890</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Restoran Yummy. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf8f2;
+}
+
+header {
+    background-color: #ee3d5bc2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+nav {
+    background-color: #4a4a4a;
+    overflow: hidden;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #6c6c6c;
+}
+
+.hero {
+    text-align: center;
+    padding: 200px;
+    background: url('image/restorant\ bintang\ 5.jpg') center/cover no-repeat;
+    color: white;
+}
+
+.hero p {
+    color:white;
+}
+.hero h2 {
+    font-size: 2.5em;
+}
+
+.hero button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.hero button:hover {
+    background-color: #e6532e;
+}
+
+.tentang-kami {
+    padding: 40px;
+    text-align: center;
+    background-color: #fdf2e8;
+}
+
+.tentang-kami img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.menu {
+    padding: 40px;
+    text-align: center;
+}
+
+.menu h2 {
+    margin-bottom: 20px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.menu-item h3, .menu-item p {
+    margin: 10px;
+    color: #333;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+footer {
+    background-color: #4a4a4a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
